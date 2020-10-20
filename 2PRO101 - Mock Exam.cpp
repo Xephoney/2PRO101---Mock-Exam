@@ -240,6 +240,7 @@ RETRY:
 		std::cin.ignore(8000, '\n');
 		goto RETRY;
 	}
+
 }
 void DisplayGameGrid(char grid[10][10])
 {
